@@ -58,16 +58,6 @@ website**.
 The respective Team Arrow links are also provided within the portfolio
 website alongside the relevant projects.
 
-## Technologies
-
-The portfolio is developed using web technologies, including:
-
--   HTML5
--   CSS3
--   JavaScript
--   Responsive Web Design
--   Multimedia Integration
-
 ## Connect
 
 -   **Portfolio:**
