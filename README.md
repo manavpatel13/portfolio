@@ -1,37 +1,85 @@
-# Manav Patel — portfolio
+# Manav Patel -- Personal Portfolio
 
-Static site, no build step. Open `index.html` through a local server (for example `python3 -m http.server` in this folder) or host the folder anywhere.
+Welcome to my personal portfolio repository! This website showcases my
+technical journey, projects, achievements, experience, and work across
+robotics, autonomous systems, artificial intelligence, and software
+development.
 
-```
-index.html          page markup
-css/style.css       all styles (colors are the variables at the top of :root)
-js/config.js        EDIT ME: model/video/resume paths, project text, achievements, skills
-js/utils.js         helpers
-js/icons.js         logo paths
-js/viewer.js        3D viewer + placeholder airframes (GLB loader)
-js/main.js          scroll effects, projects, achievements, skills, cursor, etc.
-assets/             resume PDF
-models/             put your SolidWorks .glb files here
-```
+## 🌐 Portfolio Website
 
-## Plug in your own files
-Open `js/config.js`:
-- `CONFIG.models`: already set to `models/suas.gltf`, `models/iroc.glb`, `models/robofest.gltf` (swarm). agri and explore are empty, so they show the built-in placeholder drones. A missing file also falls back to the placeholder.
-- The swarm model is one drone; the site shows it 4 times in formation.
-- If a model loads sideways or upside down, set `CONFIG.modelRotation`, for example `suas: [-90, 0, 0]`.
-- A `.gltf` needs its `.bin` and texture files in `models/` next to it.
-- `CONFIG.videos.suas = 'videos/suas.mp4'` or any direct .mp4 URL.
-- `CONFIG.resumeUrl` points to `assets/Manav_Patel_Resume.pdf`. Replace the PDF or change the path.
+**Visit:** [manavpatel13.github.io](https://manavpatel13.github.io)
 
-GLB tips: export from SolidWorks as glTF/GLB, keep each part as its own node so the Explode button can pull it apart, and keep file size under about 15 MB.
+## About the Portfolio
 
+The portfolio provides an overview of my academic journey, technical
+interests, projects, and achievements. It highlights my involvement in
+engineering competitions, robotics development, autonomous drone
+systems, and other technical initiatives.
 
-## Videos won't play?
-Re-encode with ffmpeg (8-bit H.264, AAC audio, metadata at the start of the file):
+### Featured Work & Projects
 
-    ffmpeg -i input.mp4 -c:v libx264 -pix_fmt yuv420p -profile:v high -preset slow -crf 23 -movflags +faststart -c:a aac -b:a 128k output.mp4
+The website features selected projects and experiences through:
 
-Phone/OBS/screen-recorder files are often 10-bit, H.265 or have the index at the end of the file, which Chrome rejects over a simple local server.
+-   **Project Overviews:** Brief descriptions of the projects, their
+    objectives, and key contributions.
+-   **Project Videos:** Videos showcasing project demonstrations,
+    competition participation, field testing, and system capabilities.
+-   **Achievements:** Highlights of national and international
+    competitions, recognitions, and milestones.
+-   **Technical Interests:** Work and interests spanning robotics,
+    autonomous navigation, computer vision, AI/ML, and software
+    engineering.
 
+### Project Videos
 
-> This public build uses built-in placeholder drone models (no SolidWorks files are included). To show your own models, add .glb/.gltf files and set their paths in `models` in js/config.js.
+The portfolio includes demonstration videos of selected projects and
+competition experiences, including:
+
+-   ISRO Robotics Challenge (IRoC-U)
+-   SUAS Competition
+-   AgriTech Projects
+-   RoboFest
+-   NIDAR
+
+These videos provide a visual overview of the projects, their
+implementation, and their capabilities.
+
+## Detailed Project Information
+
+This portfolio is intended to provide a concise overview of my work and
+showcase selected demonstrations. For comprehensive technical
+information, project documentation, system architectures, engineering
+details, development processes, and competition-specific information,
+please visit the respective project pages on **Team Arrow's official
+website**.
+
+**Team Arrow Website:** <https://teamarrow.in>
+
+The respective Team Arrow links are also provided within the portfolio
+website alongside the relevant projects.
+
+## Technologies
+
+The portfolio is developed using web technologies, including:
+
+-   HTML5
+-   CSS3
+-   JavaScript
+-   Responsive Web Design
+-   Multimedia Integration
+
+## Connect
+
+-   **Portfolio:**
+    [manavpatel13.github.io](https://manavpatel13.github.io)
+-   **LinkedIn:**
+    [linkedin.com/in/manavpatel1306](https://linkedin.com/in/manavpatel1306)
+-   **GitHub:**
+    [github.com/manavpatel13](https://github.com/manavpatel13)
+
+------------------------------------------------------------------------
+
+*This portfolio serves as a central showcase of my technical work,
+projects, and achievements. For detailed information about Team Arrow's
+projects and engineering contributions, please refer to the respective
+pages on [teamarrow.in](https://teamarrow.in).*
