@@ -7,7 +7,7 @@ development.
 
 ## 🌐 Portfolio Website
 
-**Visit:** [manavpatel13.github.io](https://manavpatel13.github.io/portfolio/)
+**Visit:** [manavpatel13.github.io/portfolio/](https://manavpatel13.github.io/portfolio/)
 
 ## About the Portfolio
 
@@ -61,7 +61,7 @@ website alongside the relevant projects.
 ## Connect
 
 -   **Portfolio:**
-    [manavpatel13.github.io](https://manavpatel13.github.io)
+    [manavpatel13.github.io](manavpatel13.github.io/portfolio/)
 -   **LinkedIn:**
     [linkedin.com/in/manavpatel1306](https://linkedin.com/in/manavpatel1306)
 -   **GitHub:**
